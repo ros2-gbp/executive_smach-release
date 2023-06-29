@@ -1,0 +1,12 @@
+Source: ros-iron-executive-smach
+Section: misc
+Priority: optional
+Maintainer: Isaac I. Y. Saito <gm130s@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-iron-ament-cmake, ros-iron-ros-workspace
+Homepage: http://ros.org/wiki/smach
+Standards-Version: 3.9.2
+
+Package: ros-iron-executive-smach
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-iron-smach, ros-iron-smach-msgs, ros-iron-smach-ros, ros-iron-ros-workspace
+Description: This metapackage depends on the SMACH library and ROS SMACH integration packages.
