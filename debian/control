@@ -1,0 +1,12 @@
+Source: ros-rolling-smach-msgs
+Section: misc
+Priority: optional
+Maintainer: Isaac Saito <iisaac.saito@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-rolling-ament-cmake, ros-rolling-ament-cmake-cppcheck, ros-rolling-ament-cmake-cpplint <!nocheck>, ros-rolling-ament-cmake-flake8, ros-rolling-ament-cmake-pep257, ros-rolling-ament-cmake-uncrustify <!nocheck>, ros-rolling-ament-lint <!nocheck>, ros-rolling-builtin-interfaces, ros-rolling-rosidl-default-generators, ros-rolling-std-msgs, ros-rolling-ros-workspace, ros-rolling-rosidl-typesupport-fastrtps-c, ros-rolling-rosidl-typesupport-fastrtps-cpp
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-rolling-smach-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-rolling-builtin-interfaces, ros-rolling-rosidl-default-runtime, ros-rolling-std-msgs, ros-rolling-ros-workspace
+Description: this package contains a set of messages that are used by the introspection interfaces for smach.
