@@ -76,5 +76,4 @@ tracks:
     ros_distro: rolling
     vcs_type: git
     vcs_uri: https://github.com/ros/executive_smach.git
-    version: 3.0.3
-    version_saved: :{auto}
+    version: :{auto}
