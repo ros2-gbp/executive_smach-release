@@ -1,0 +1,12 @@
+Source: ros-jazzy-executive-smach
+Section: misc
+Priority: optional
+Maintainer: Isaac Saito <iisaac.saito@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake, ros-jazzy-ros-workspace
+Homepage: http://ros.org/wiki/smach
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-executive-smach
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-smach, ros-jazzy-smach-msgs, ros-jazzy-smach-ros, ros-jazzy-ros-workspace
+Description: This metapackage depends on the SMACH library and ROS SMACH integration packages.
