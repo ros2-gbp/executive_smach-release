@@ -1,0 +1,12 @@
+Source: ros-jazzy-smach-msgs
+Section: misc
+Priority: optional
+Maintainer: Isaac Saito <iisaac.saito@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake, ros-jazzy-ament-cmake-cppcheck, ros-jazzy-ament-cmake-cpplint <!nocheck>, ros-jazzy-ament-cmake-flake8, ros-jazzy-ament-cmake-pep257, ros-jazzy-ament-cmake-uncrustify <!nocheck>, ros-jazzy-ament-lint <!nocheck>, ros-jazzy-builtin-interfaces, ros-jazzy-rosidl-default-generators, ros-jazzy-std-msgs, ros-jazzy-ros-workspace, ros-jazzy-rosidl-typesupport-fastrtps-c, ros-jazzy-rosidl-typesupport-fastrtps-cpp
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-smach-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-builtin-interfaces, ros-jazzy-rosidl-default-runtime, ros-jazzy-std-msgs, ros-jazzy-ros-workspace
+Description: this package contains a set of messages that are used by the introspection interfaces for smach.
