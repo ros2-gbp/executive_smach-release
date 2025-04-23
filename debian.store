@@ -1,1 +1,1 @@
-{"base": "62dc178", "parent": "debian/rolling/smach_ros", "previous": "90449a6", "trim": "", "trimbase": ""}
+{"base": "f0a66e684d18", "parent": "debian/kilted/smach_ros", "previous": "f3d946b41d96", "trim": "", "trimbase": ""}
