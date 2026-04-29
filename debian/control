@@ -1,0 +1,12 @@
+Source: ros-lyrical-executive-smach
+Section: misc
+Priority: optional
+Maintainer: Isaac Saito <iisaac.saito@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-lyrical-ament-cmake, ros-lyrical-ros-workspace
+Homepage: http://ros.org/wiki/smach
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-executive-smach
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-smach, ros-lyrical-smach-msgs, ros-lyrical-smach-ros, ros-lyrical-ros-workspace
+Description: This metapackage depends on the SMACH library and ROS SMACH integration packages.
