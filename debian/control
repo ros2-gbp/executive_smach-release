@@ -1,0 +1,12 @@
+Source: ros-lyrical-smach-msgs
+Section: misc
+Priority: optional
+Maintainer: Isaac Saito <iisaac.saito@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-lyrical-ament-cmake, ros-lyrical-ament-cmake-cppcheck, ros-lyrical-ament-cmake-cpplint <!nocheck>, ros-lyrical-ament-cmake-flake8, ros-lyrical-ament-cmake-pep257, ros-lyrical-ament-cmake-uncrustify <!nocheck>, ros-lyrical-ament-lint <!nocheck>, ros-lyrical-builtin-interfaces, ros-lyrical-rosidl-default-generators, ros-lyrical-std-msgs, ros-lyrical-ros-workspace, ros-lyrical-rosidl-typesupport-fastrtps-c, ros-lyrical-rosidl-typesupport-fastrtps-cpp
+Homepage: https://index.ros.org/p/smach_msgs/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-smach-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-builtin-interfaces, ros-lyrical-rosidl-default-runtime, ros-lyrical-std-msgs, ros-lyrical-ros-workspace
+Description: this package contains a set of messages that are used by the introspection interfaces for smach.
